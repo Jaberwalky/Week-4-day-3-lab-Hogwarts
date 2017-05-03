@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>House</th>
+    <th>Age</th>
+  </tr>
+  <% @students.each do |student| %>
+  <tr>
+    <td> <%= student.first_name + " " + student.second_name %> </td>
+    <td> <%= student.house %> </td>
+    <td> <%= student.age %> </td>
+  </tr>
+  <% end %>
+
+</table>
