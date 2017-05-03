@@ -9,7 +9,7 @@ gryffindor = House.new({'name' => 'Gryffindor', 'logo'=>'https://s-media-cache-a
 
 slytherin = House.new({'name' => 'Slytherin', 'logo'=>'https://s-media-cache-ak0.pinimg.com/736x/e7/1e/50/e71e509f2d73aca3674b3a550f54ad4d--slytherin-house-hogwarts-houses.jpg'})
 
-hufflepuff = House.new({'name' => 'hufflepuff', 'logo'=>'https://s-media-cache-ak0.pinimg.com/originals/e0/e2/bc/e0e2bca469b63385d89ec2f1250e4ca5.jpg'})
+hufflepuff = House.new({'name' => 'Hufflepuff', 'logo'=>'https://s-media-cache-ak0.pinimg.com/originals/e0/e2/bc/e0e2bca469b63385d89ec2f1250e4ca5.jpg'})
 
 ravenclaw = House.new({'name' => 'Ravenclaw', 'logo'=>'http://vignette3.wikia.nocookie.net/harrypotter/images/9/94/Ravenclaw_Logo.jpg/revision/latest?cb=20140627182803'})
 

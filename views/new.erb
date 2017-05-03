@@ -4,13 +4,14 @@
 <br>
   <label for="lastName"> Surname :</label>
   <input type="text" id="lastName" name="second_name">
-<br>
+<br> 
   <label for="houseSelect">Select House : </label>
-  <select id = "houseSelect" name="house">
-    <option value="Gryffindor">Gryffindor</option>
-    <option value="Hufflepuff">Hufflepuff</option>
-    <option value="Slytherin">Slytherin</option>
-    <option value="Ravenclaw">Ravenclaw</option>
+  <select id = "houseSelect" name="house_id">
+
+  <% @houses.each do |house| %>
+    <option value="<%=house.id%>"><%=house.name%></option>
+    <%end%>
+
   </select>
   <br>
   <label for="studentAge"> Age :</label>
