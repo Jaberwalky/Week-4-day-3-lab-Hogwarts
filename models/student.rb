@@ -49,5 +49,13 @@ class Student
     result = SqlRunner.run(sql).first["name"]
   end
 
+  def house_logo()
+    sql = "SELECT distinct(houses.logo) from houses,students
+    where houses.id = students.house_id and houses.id = #{@house_id};"
+    result = SqlRunner.run(sql).first["logo"]
+  end
+
+
+
 
 end
